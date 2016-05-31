@@ -9,7 +9,7 @@ A image viewer generator for webpage.
 ```html
       <link rel="stylesheet" href="imageV.css">
 ```
-3.Put your image in your web page and give the class name ```imageV```
+3.Put your image in your web page and give the class name ```imageV``` (put all of your images in a div)
 ```html
       <img src="image.jpg" class="imageV">
 ```
@@ -32,10 +32,11 @@ As a whole your webpage is should be like this
         </style>
       </head>
       <body>
+      <div>
         <img src="image1.jpg" class="imageV">
         <img src="image2.jpg" class="imageV">
         <img src="image3.jpg" class="imageV">
-        
+      <div>  
         <script type="text/javascript" src="imageV.js"></script>
       </body>
     </html>
