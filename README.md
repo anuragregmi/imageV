@@ -32,11 +32,11 @@ As a whole your webpage is should be like this
         </style>
       </head>
       <body>
-      <div>
-        <img src="image1.jpg" class="imageV">
-        <img src="image2.jpg" class="imageV">
-        <img src="image3.jpg" class="imageV">
-      </div>  
+        <div>
+          <img src="image1.jpg" class="imageV">
+          <img src="image2.jpg" class="imageV">
+          <img src="image3.jpg" class="imageV">
+        </div>  
         <script type="text/javascript" src="imageV.js"></script>
       </body>
     </html>
