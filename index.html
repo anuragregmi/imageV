@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Imagev by anurag1234565</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Imagev</h1>
+        <p class="header">a image viewer creator for webpage</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/anurag1234565/imageV/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/anurag1234565/imageV/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/anurag1234565/imageV">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/anurag1234565">anurag1234565</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="imagev" class="anchor" href="#imagev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>imageV</h1>
+
+<p>A image viewer creator for webpage.</p>
+
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1>
+
+<p>Just few steps and you are using this thing.</p>
+
+<p>1.Download imageV.css and imageV.js .<br>
+2.Include our css file to your web page <br></p>
+
+<div class="highlight highlight-text-html-basic"><pre>      &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>imageV.css<span class="pl-pds">"</span></span>&gt;</pre></div>
+
+<p>3.Put your image in your web page and give the class name <code>imageV</code></p>
+
+<div class="highlight highlight-text-html-basic"><pre>      &lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>image.jpg<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>imageV<span class="pl-pds">"</span></span>&gt;</pre></div>
+
+<p>4.All the styles that you want to give to your image, define it in <code>img</code> class</p>
+
+<div class="highlight highlight-source-css"><pre>      <span class="pl-e">.img</span>{<span class="pl-c1"><span class="pl-c1">width</span></span>:<span class="pl-c1">123<span class="pl-k">px</span></span>;<span class="pl-c1"><span class="pl-c1">height</span></span>:<span class="pl-c1">123<span class="pl-k">px</span></span>;}</pre></div>
+
+<p>5.At the end of your webpge run <code>imageV.js</code></p>
+
+<div class="highlight highlight-text-html-basic"><pre><span class="pl-s1">      &lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>imageV.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></pre></div>
+
+<p>As a whole your webpage is should be like this</p>
+
+<div class="highlight highlight-text-html-basic"><pre>    &lt;<span class="pl-ent">html</span>&gt;
+      &lt;<span class="pl-ent">head</span>&gt;
+        &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>imageV.css<span class="pl-pds">"</span></span>&gt;
+<span class="pl-s1">        &lt;<span class="pl-ent">style</span>&gt;</span>
+<span class="pl-s1">          <span class="pl-e">.img</span>{ <span class="pl-c1"><span class="pl-c1">height</span></span>:<span class="pl-c1">400<span class="pl-k">px</span></span>; }//your css</span>
+<span class="pl-s1">        &lt;/<span class="pl-ent">style</span>&gt;</span>
+<span class="pl-s1">      &lt;/<span class="pl-ent">head</span>&gt;</span>
+<span class="pl-s1">      &lt;<span class="pl-ent">body</span>&gt;</span>
+<span class="pl-s1">        &lt;<span class="pl-ent">img</span> src="image1<span class="pl-e">.jpg</span>" class="imageV"&gt;</span>
+<span class="pl-s1">        &lt;<span class="pl-ent">img</span> src="image2<span class="pl-e">.jpg</span>" class="imageV"&gt;</span>
+<span class="pl-s1">        &lt;<span class="pl-ent">img</span> src="image3<span class="pl-e">.jpg</span>" class="imageV"&gt;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        &lt;<span class="pl-ent">script</span> type="text/javascript" src="imageV<span class="pl-e">.js</span>"&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">      &lt;/<span class="pl-ent">body</span>&gt;</span>
+<span class="pl-s1">    &lt;/<span class="pl-ent">html</span>&gt;</span></pre></div>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
