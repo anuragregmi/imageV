@@ -36,7 +36,7 @@ As a whole your webpage is should be like this
         <img src="image1.jpg" class="imageV">
         <img src="image2.jpg" class="imageV">
         <img src="image3.jpg" class="imageV">
-      <div>  
+      </div>  
         <script type="text/javascript" src="imageV.js"></script>
       </body>
     </html>
