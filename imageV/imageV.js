@@ -1,4 +1,8 @@
-
+/* 
+Name : Anurag Regmi
+E-mail: anurag1234565@gmail.com
+github: github.com/anurag1234565
+*/
 window.onkeydown = onKeypress;
 var i;
 
