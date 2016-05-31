@@ -1,5 +1,5 @@
 # imageV
-A image viewer creator for webpage.
+A image viewer generator for webpage.
 
 #Installation
   Just few steps and you are using this thing.
