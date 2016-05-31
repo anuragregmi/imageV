@@ -23,7 +23,7 @@ A image viewer creator for webpage.
 ```
 
   As a whole your webpage is should be like this
-```
+```html
     <html>
       <head>
         <link rel="stylesheet" href="imageV.css">
