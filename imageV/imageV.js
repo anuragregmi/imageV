@@ -28,7 +28,7 @@ var m = document.createElement("DIV");
 var s =" <div id=\"id01\" class=\"modal\" ><div class=\"modal-content property card\"><div class=\"content\" style=\"position:relative\"><span onclick=\"document.getElementById('id01').style.display='none'\" class=\"closebtn \" style=\"position:absolute;top:0;right:0\">&times;</span>";
 for(i=0; i<l; i++)
 {
-    s=s +"<img src="+z[i].src+" class=\"slides img\" style=\"width:100%; margin:0;\"> ";
+    s=s +"<img src="+z[i].src+" class=\"slides \" style=\"width:100%; margin:0;\"> ";
 }
 s = s+ "<a class=\"btn-floating\" style=\"position:absolute;top:45%;left:0\" onclick=\"plusDivs(-1)\"><b><</b></a><a class=\"btn-floating\" style=\"position:absolute;top:45%;right:0\" onclick=\"plusDivs(1)\"><b>></b></a>"/* + "<button class=\"btn-floating round\" onclick=\"myfunction(slideIndex)\" style=\"position:absolute;top:90%;left:45%;width:10%\">Select</button>\"*/;             
                 
