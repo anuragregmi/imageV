@@ -17,7 +17,7 @@ for( i=0 ; i<l ; i++ )
 {
     a = document.createElement('a');
     a.setAttribute("href","#");
-    a.setAttribute("onclick","show("+(i+)+")");
+    a.setAttribute("onclick","show("+(i+1)+")");
     a.innerHTML="<img src="+z[i].src+" class=\"img\">";
     console.log(i);
     parent.appendChild(a);
