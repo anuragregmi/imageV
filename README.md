@@ -1,2 +1,4 @@
 # imageV
-a image viewer creator for webpage
+A image viewer creator for webpage.
+
+## Using it.
