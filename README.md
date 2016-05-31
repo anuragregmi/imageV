@@ -40,3 +40,27 @@ As a whole your webpage is should be like this
       </body>
     </html>
 ```
+You can also add a select button to your image by uncommenting some comments in imageV.js 
+<br>in line 29 
+```
+/* + "<button class=\"btn-floating round\" onclick=\"myfunction(slideIndex)\" style=\"position:absolute;top:90%;left:45%;width:10%\">Select</button>\"*/
+```
+in 67
+```
+/* else if (event.keyCode == 13)//for enter
+                {
+                    
+                    myfunction(slideIndex);
+                    
+                }
+			*/
+```
+
+and in line 113
+```
+/*function myfunction()
+{
+	//define your function here
+}
+*/
+```
