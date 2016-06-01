@@ -25,7 +25,7 @@ for( i=0 ; i<l ; i++ )
 
 //creating image viewer
 var m = document.createElement("DIV");
-var s =" <div id=\"id01\" class=\"modal\" ><div class=\"modal-content property card\"><div class=\"content\" style=\"position:relative\"><span onclick=\"document.getElementById('id01').style.display='none'\" class=\"closebtn \" style=\"position:absolute;top:0;right:0\">&times;</span>";
+var s =" <div id=\"id01\" class=\"modal\" ><div class=\"modal-content  card\"><div class=\"content\" style=\"position:relative\"><span onclick=\"document.getElementById('id01').style.display='none'\" class=\"closebtn \" style=\"position:absolute;top:0;right:0\">&times;</span>";
 for(i=0; i<l; i++)
 {
     s=s +"<img src="+z[i].src+" class=\"slides \" style=\"width:100%; margin:0;\"> ";
