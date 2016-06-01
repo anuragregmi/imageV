@@ -47,10 +47,17 @@ This is what is seen in your web page. In line 21 of imageV.js
 ```js
 	a.innerHTML="<img src="+z[i].src+" class=\"img\">";
 ```
-	
-
-
-   You can also add a select button to your image by uncommenting some comments in imageV.js 
+You can define your own css in class img
+```css
+      .img{width:123px;height:123px;margin:10px}
+```
+### Editing image for viewer
+You can edit this in line  31 to change view of image in viewer. 
+```js
+ s=s +"<img src="+z[i].src+" class=\"slides \" style=\"width:100%; margin:0;\"> ";
+```
+### Add a select button to your image viewer
+You can  add a select button to your viewer by uncommenting some comments in imageV.js 
    <br>in line 33
 ```
 /* + "<button class=\"btn-floating round\" onclick=\"myfunction(slideIndex)\" style=\"position:absolute;top:90%;left:45%;width:10%\">Select</button>\"*/
