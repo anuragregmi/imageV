@@ -42,8 +42,8 @@ As a whole your webpage is should be like this
     </html>
 ```
 ## Customization 
-### Editing your images in webpage</h2>
-    This is what is seen in your web page. In line 21 of imageV.js
+### Editing your images in webpage
+This is what is seen in your web page. In line 21 of imageV.js
 ```js
 	a.innerHTML="<img src="+z[i].src+" class=\"img\">";
 ```
