@@ -42,7 +42,7 @@ As a whole your webpage is should be like this
     </html>
 ```
 ## Customization 
-    <h2>Editing your images in webpage</h2>
+### Editing your images in webpage</h2>
 	
 
 
