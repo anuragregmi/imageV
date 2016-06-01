@@ -43,7 +43,7 @@ As a whole your webpage is should be like this
 ```
 ## Customization 
 ### Editing your images in webpage</h2>
-	This is what is seen in your web page. In line 21 of imageV.js
+    This is what is seen in your web page. In line 21 of imageV.js
 ```js
 	a.innerHTML="<img src="+z[i].src+" class=\"img\">";
 ```
