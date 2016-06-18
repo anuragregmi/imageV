@@ -6,7 +6,7 @@
 .closebtn{text-decoration:none;float:right;font-size:24px;font-weight:bold;color:inherit}
 .content{max-width:980px;margin:auto}
 .round{border-radius:16px!important}
-.img{height:400px;width: 25%}
+.img{height:400px;width: 30%}
 .btn-floating:disabled{cursor:not-allowed;opacity:0.3;pointer-events:none;box-shadow:none;}
 .btn-floating:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}
 .btn-floating{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;text-align:center;color:#fff;background-color:#000;position:relative;overflow:hidden;z-index:1;padding:0;border-radius:50%;cursor:pointer;font-size:24px;width:56px;height:56px;line-height:56px}
